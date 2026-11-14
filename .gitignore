@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Production Build Output
+dist/
+dist-ssr/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Vercel
+.vercel/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor & OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary Test & Capture Artifacts
+test-*.js
+*_test.*
+debug_*.png
+verify_*.png
+clean_*.png
+test_*.png
+screenshot_*.png
